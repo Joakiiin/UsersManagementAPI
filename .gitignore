@@ -1,0 +1,59 @@
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+[AR]m/
+[AR]m64/
+binstobj/
+bin/
+obj/
+[Log]s/
+
+## Visual Studio 2015/2017/2019/2022 cache and settings
+.vs/
+*TextTransform.exe
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/code-workspace
+
+## .NET Core / .NET Secrets & Local Settings
+usersecrets.json
+secrets.json
+*.local.settings.json
+
+## Docker / Compose
+.dockerignore
+Docker/
+
+## Packages downloaded by NuGet
+*.nupkg
+**/packages/*
+!**/packages/repositories.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Diagnostic dump files
+*.stackdump
+
+## macOS specific files
+.DS_Store
